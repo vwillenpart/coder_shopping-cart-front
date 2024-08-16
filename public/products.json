@@ -1,0 +1,74 @@
+[
+  {
+    "id": 5,
+    "title": "Gold Ring",
+    "description": "made with pure gold",
+    "price": 2500,
+    "thumbnails": [
+      "/assets/amy-lewis-x-6KMcRNfCA-unsplash.jpg"
+    ],
+    "code": "C005",
+    "stock": 15,
+    "category": ["Rings", "Gold"]
+  },
+  {
+    "id": 6,
+    "title": "Silver Earrings",
+    "description": "made with pure silver",
+    "price": 5000,
+    "thumbnails": [
+      "/assets/jasmin-chew-UBeNYvk6ED0-unsplash.jpg"
+    ],
+    "code": "C006",
+    "stock": 3,
+    "category": ["Silver", "Earrings"]
+  },
+  {
+    "id": 7,
+    "title": "Gold Earrings",
+    "description": "made with pure gold",
+    "price": 4500,
+    "thumbnails": [
+      "/assets/nataliya-melnychuk-5ngCICAXiH0-unsplash.jpg"
+    ],
+    "code": "C007",
+    "stock": 2,
+    "category": ["Gold", "Earrings"]
+  },
+  {
+    "id": 8,
+    "title": "Gold Chain",
+    "description": "hand made with pure gold",
+    "price": 4000,
+    "thumbnails": [
+      "/assets/nataliya-melnychuk-oO0JAOJhquk-unsplash.jpg"
+    ],
+    "code": "C008",
+    "stock": 1,
+    "category": ["Gold", "Chains"]
+  },
+  {
+    "id": 9,
+    "title": "Gold Minimal Earrings",
+    "description": "hand made with pure gold",
+    "price": 3500,
+    "thumbnails": [
+      "/assets/sandi-benedicta-D3LxjsY8qKs-unsplash.jpg"
+    ],
+    "code": "C009",
+    "stock": 4,
+    "category": ["Gold", "Earrings"]
+  },
+  {
+    "id": 10,
+    "title": "Sapphire Earrings",
+    "description": "made with pure gold and sapphire",
+    "price": 3200,
+    "thumbnails": [
+      "/assets/arteum-ro-VJZdxfvFGuo-unsplash.jpg"
+    ],
+    "code": "C010",
+    "stock": 6,
+    "category": ["Gold", "Earrings", "Stone"]
+  }
+]
