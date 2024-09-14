@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
-import CartWidget from "./CartWidget";
+import CartWidget from "./Cart/CartWidget";
 import { PiSpiral } from "react-icons/pi";
 
-const NavBar = ({ items }) => {
+const NavBar = ({ categories }) => {
 
     return (
         <nav className="navbar navbar-expand-md bg-body-secondary">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/"><PiSpiral/> Tienda</Link>
+                <Link className="navbar-brand" to="/"><PiSpiral/> VWDH</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        {items && items.map((item, index) => (
+                        {categories && categories.map((item, index) => (
                             <li className="nav-item" key={index}>
                                 <Link className="nav-link" to={`/category/${item}`}>{item}</Link>
                             </li>
